@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-page">
+    
+        <div id="loginform">
+          <form class="form-login">
+            <h3>LOGIN</h3>
+            <input type="text" placeholder="user name" id="loginuser" />
+            <input type="password" placeholder="password" id="loginpass" />
+               <p id="loginerror" ></p>
+            <button type="button" id="loginbtn">Login</button>
+           
+
+            <p id="loginmsg">
+              Do not have an account?<span id="loginspan">Sign Up</span>
+            </p>
+          </form>
+        </div>
+             
+   
+        <div id="signupform">
+          <form class="form-signup">
+            <h3>Sign Up</h3>
+            <input id="signupname" type="text" placeholder="full name" />
+            <input id="signupuser" type="text" placeholder="user name" />
+            <input id="signupemail" type="text" placeholder="email" />
+            <input id="signupphone" type="text" placeholder="phone number" />
+            <input id="signuppass" type="password" placeholder="password" />
+          <input id="signupconfirm" type="password" placeholder="confirm password" />
+            <button id="signupbtn">Sign Up</button>
+              <p id="signuperror" ></p>
+            <p>Already have account.<span id="signupspan">Login</span></p>
+          </form>
+        </div>
+      
+ </div>
+    <script src="script.js"></script>
+  </body>
+</html>
