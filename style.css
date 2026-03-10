@@ -1,21 +1,24 @@
 body{
    font-family: Arial, sans-serif;
-  background: #f8f9fb;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  background: linear-gradient(90deg, #0a0a0a,
+  #3a4452);
   
 
 }
 .login-page{
   justify-content: center;
   align-items: center;
- background-color: antiquewhite;
   margin-top:100px;
  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   text-align: center;
-    border-radius: 8px;
+  border: 1px solid #717377;
+     background: linear-gradient(45deg, #0a0a0a,
+  #3a4452);
+    border-radius: 16px;
+    padding: 20px ;
 }
 button {
   padding: 10px 20px;
@@ -64,4 +67,7 @@ color: #b00020;
   margin-top: 10px;
   font-size: 14px;
   display: none;
+}
+#loginmsg, h3, #signupmsg{
+  color: white;
 }
